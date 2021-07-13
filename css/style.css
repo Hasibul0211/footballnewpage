@@ -1,0 +1,107 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+    margin: 0 auto;
+}
+/* -------------------container-------------- */
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    border: 5px solid yellow;
+    background-color: #FFFFFF;
+}
+/* ---------------------------header section ---------------------- */
+.header-section{
+    height: 667px;
+    border: 1px solid;
+    padding: 42px 124px 0 156px;
+    background-color:#2D25A0;
+}
+/* ---------------------nav bar ----------------- */
+.navBar{
+    height: 44px;
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navBar nav a{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-right: 36px;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+.navBar nav a:hover,.active{
+    background-color: tomato;
+}
+.login-part{
+    color: white;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.login-part span{
+    margin-left: 8px;
+}
+/* ---------------header bottom------------------- */
+.header-bottom{
+    display: flex;
+}
+
+.header-title h2{
+    font-size: 64px;
+    color: white;
+    margin-top: 144px;
+    margin-right: 94px;
+    margin-bottom: 0;
+    
+}
+.header-image img{
+    height: 438px;
+    width: 556px;
+    margin-top: 49px;
+}
+.header-title p{
+background-color: tomato;
+display: inline-block;
+padding: 10px 24px;
+margin: 0;
+}
+@media only screen and (max-width: 682px) {
+    .container{
+        width: 100%;
+        border: none;
+        padding-left: 0;
+        
+    }
+    .header-section{
+        height: 800px;
+        padding: 10px 12px 0 15px;
+
+    }
+    .navBar{
+        display: none;
+    }
+    .header-bottom{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-title{
+        padding-left: 2px;
+    }
+    .header-title h2{
+        font-size: 50px;
+    }
+    .header-image img{
+        height: 300px;
+        width: 400px;
+    }
+}
