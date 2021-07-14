@@ -189,8 +189,59 @@ color: white;
     width: 567px;
     height: 427px;
 }
+/*------------- last section again -------- */
 
-
+.last-section-again{
+    display: flex;
+    margin-top: 160px;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.last-section-info-again{
+    height: 329px;
+    width: 469px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 50px;
+    margin-right: 166px;
+}
+.last-section-info-again h1{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.last-section-info-again p{
+    font-size: 16px;
+    text-align: left;
+}
+.last-section-info-again span{
+    background-color: tomato;
+    display: inline-block;
+    padding: 10px 24px;
+    margin: 0;
+    color: white;
+    }
+    .last-section-info-again span a,.last-section-info span a{
+        text-decoration: none;
+        color: white;
+    }
+.last-section-info-again span:hover{
+        color: black;
+        padding: 12px 25px;
+        background-color: aqua;
+        transition: all 0.5s;
+        font-weight: bold;
+    }
+.last-section-img-again{
+    margin-left: 120px;
+    margin-right: 0;
+}
+.last-section-img-again img{
+    width: 567px;
+    height: 427px;
+}
 
 
 /* ---------------------------------------small device media quires------------------- */
@@ -232,14 +283,34 @@ color: white;
     }
     .last-section{
         flex-direction: column;
-        align-items: center;
+
     }
     .last-section-info{
-        margin-left: 10px;
         margin-bottom: 50px;
+        margin: 10px auto;
     }
     .last-section-img{
-        margin: 0 auto;
+        margin: 10px auto;
     }
-    
+    .last-section-img img{
+        width: 467px;
+        height: 327px;
+       
+    }
+    .last-section-again{
+        flex-direction: column;
+
+    }
+    .last-section-info-again{
+        margin-bottom: 50px;
+        margin: 10px auto;
+    }
+    .last-section-img-again{
+        margin: 10px auto;
+    }
+    .last-section-img-again img{
+        width: 467px;
+        height: 327px;
+       
+    }
 }
