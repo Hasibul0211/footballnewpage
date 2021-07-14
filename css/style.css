@@ -327,16 +327,18 @@ font-size: 16px;
         grid-template-columns: repeat(1,1fr);
         grid-gap: 27px 0;
         align-items: center;
-        padding:2px 0 0 25px;
+        padding: 2px 50px;
     }
     .last-section{
         flex-direction: column;
         align-items: center;
+        
 
     }
     .last-section-info{
         margin-bottom: 50px;
         margin: 10px auto;
+        padding: 0 10px;
     }
     .last-section-info h1{
         font-size: 48px;
@@ -368,14 +370,19 @@ font-size: 16px;
     .last-section-info-again{
         margin-bottom: 50px;
         margin: 10px auto;
+        padding: 10px;
     }
     .last-section-img-again{
         margin: 10px auto;
     }
     .last-section-img-again img{
-        width: 467px;
-        height: 327px;
+        width: 460px;
+        height: 300px;
+
        
+    }
+    .last-section-info-again span{
+        padding: 10px 10px;
     }
     .footer-section img{
         width: 250px;
