@@ -49,9 +49,17 @@ body{
 .login-part span{
     margin-left: 8px;
 }
+.login-part:hover{
+    color: black;
+    padding: 12px 25px;
+    background-color: aqua;
+    transition: all 0.5s;
+    font-weight: bold;
+}
 /* ---------------header bottom------------------- */
 .header-bottom{
     display: flex;
+    
 }
 
 .header-title h2{
@@ -66,14 +74,27 @@ body{
     height: 438px;
     width: 556px;
     margin-top: 49px;
-    animation: img-animation 2s ease-in 0.5s 1;
+    animation: img-animation 5s ease-in 2s 1;
 }
 .header-title p{
 background-color: tomato;
 display: inline-block;
 padding: 10px 24px;
 margin: 0;
+color: white;
 }
+.header-title p:hover{
+    color: black;
+    padding: 12px 25px;
+    background-color: aqua;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+.fa-arrow-right{
+    margin-left: 5px;
+    margin-top: 2px;
+}
+/* ------------------image animation sectin ----------------- */
 @keyframes img-animation{
     from
     {
@@ -86,6 +107,41 @@ margin: 0;
         right: 1%;
         top: 0;
     }
+}
+/*------------------------- blog section ------------------------ */
+.blog-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 70px 180px;
+    grid-gap: 27px 30px;
+}
+.blog{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 15px 33px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.blog img{
+    width: 330px;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.blog-info a{
+    text-decoration: none;
+    color: black;
+}
+.blog-info h1{
+    font-size: 28px;
+    margin-bottom: 1px;
+}
+.blog-info p{
+    font-size: 16px;
 }
 
 
@@ -113,6 +169,7 @@ margin: 0;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding-left: 100px;
     }
     .header-title{
         padding-left: 2px;
@@ -123,6 +180,12 @@ margin: 0;
     .header-image img{
         height: 300px;
         width: 400px;
+    }
+    .blog-section{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 27px 0;
+        align-items: center;
+        justify-content: center;
     }
     
 }
