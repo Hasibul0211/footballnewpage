@@ -112,7 +112,7 @@ color: white;
 .blog-section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding: 70px 180px;
+    padding: 70px 210px 0 150px;
     grid-gap: 27px 30px;
 }
 .blog{
@@ -123,7 +123,6 @@ color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden;
 }
 .blog img{
     width: 330px;
@@ -143,8 +142,53 @@ color: white;
 .blog-info p{
     font-size: 16px;
 }
-
-
+/* -------------------------------last section ---------------------- */
+.last-section{
+    display: flex;
+    margin-top: 160px;
+    justify-content: space-between;
+}
+.last-section-info{
+    height: 329px;
+    width: 469px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-right: 66px;
+}
+.last-section-info h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.last-section-info p{
+    font-size: 16px;
+    text-align: left;
+}
+.last-section-info span{
+    background-color: tomato;
+    display: inline-block;
+    padding: 10px 24px;
+    margin: 0;
+    color: white;
+    }
+.last-section-info span:hover{
+        color: black;
+        padding: 12px 25px;
+        background-color: aqua;
+        transition: all 0.5s;
+        font-weight: bold;
+    }
+.last-section-img{
+    margin-right: 120px;
+}
+.last-section-img img{
+    width: 567px;
+    height: 427px;
+}
 
 
 
@@ -185,7 +229,17 @@ color: white;
         grid-template-columns: repeat(1,1fr);
         grid-gap: 27px 0;
         align-items: center;
-        justify-content: center;
+    }
+    .last-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .last-section-info{
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+    .last-section-img{
+        margin: 0 auto;
     }
     
 }
