@@ -6,7 +6,7 @@ body{
 .container{
     width: 1440px;
     margin: 0 auto;
-    border: 5px solid yellow;
+    
     background-color: #FFFFFF;
 }
 /* ---------------------------header section ---------------------- */
@@ -242,7 +242,49 @@ color: white;
     width: 567px;
     height: 427px;
 }
+/* footer section  */
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+.footer-section img{
+    height: 80px;
+    width: 450px;
+}
+.copyright p{
+font-weight: 800;
+font-size: 16px;
+}
+.icon{
+    display: flex;
+}
+.icon div{
+    background-color: grey;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border-radius: 25px;
+    opacity: .5;
+}
+.icon div:hover{
+    background-color: blue;
+}
+.icon a:hover{
+    color: white;
+}
+.icon a{
+    text-decoration: none;
+    color: black;
+}
 
+.fab{
+    font-size: 22px;
+    text-align: center;
+    padding: 9px;
+}
 
 /* ---------------------------------------small device media quires------------------- */
 @media only screen and (max-width: 682px) {
@@ -312,5 +354,19 @@ color: white;
         width: 467px;
         height: 327px;
        
+    }
+    .footer-section img{
+        width: 250px;
+    }
+    .icon div{
+        height: 30px;
+        width: 30px;
+    }
+    .fab{
+        font-size: 18px;
+        padding: 5px;
+    }
+    .copyright p{
+        font-size: 10px;
     }
 }
