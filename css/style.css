@@ -6,7 +6,7 @@ body{
 .container{
     width: 1440px;
     margin: 0 auto;
-    
+    overflow-x: hidden;
     background-color: #FFFFFF;
 }
 /* ---------------------------header section ---------------------- */
