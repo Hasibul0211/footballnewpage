@@ -1,6 +1,5 @@
 body{
     font-family: 'Poppins', sans-serif;
-    color: blue;
     margin: 0 auto;
 }
 /* -------------------container-------------- */
@@ -67,6 +66,7 @@ body{
     height: 438px;
     width: 556px;
     margin-top: 49px;
+    animation: img-animation 2s ease-in 0.5s 1;
 }
 .header-title p{
 background-color: tomato;
@@ -74,6 +74,24 @@ display: inline-block;
 padding: 10px 24px;
 margin: 0;
 }
+@keyframes img-animation{
+    from
+    {
+        position: relative;
+        right: -40%;
+        top: 0;
+    }
+    to{
+        position: relative;
+        right: 1%;
+        top: 0;
+    }
+}
+
+
+
+
+
 
 /* ---------------------------------------small device media quires------------------- */
 @media only screen and (max-width: 682px) {
@@ -84,7 +102,7 @@ margin: 0;
         
     }
     .header-section{
-        height: 800px;
+        height: 850px;
         padding: 10px 12px 0 15px;
 
     }
