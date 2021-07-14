@@ -327,7 +327,8 @@ font-size: 16px;
         grid-template-columns: repeat(1,1fr);
         grid-gap: 27px 0;
         align-items: center;
-        padding: 2px 110px;
+        padding: 0;
+        margin-left: 25px;
     }
     .last-section{
         flex-direction: column;
@@ -337,12 +338,10 @@ font-size: 16px;
     }
     .last-section-info{
         margin-bottom: 50px;
-        margin: 10px auto;
-        padding: 0 10px;
     }
     .last-section-info h1{
         font-size: 40px;
-        margin: 2px;
+        padding: 0;
     }
     .last-section-info p{
         font-size: 18px;
@@ -366,17 +365,16 @@ font-size: 16px;
     }
     .last-section-again{
         flex-direction: column;
+        padding: 15px;
 
     }
     .last-section-info-again{
         margin-bottom: 50px;
-        margin: 10px auto;
-        padding: 10px;
+        margin: 0;
     }
     .last-section-info-again h1{
         font-size: 40px;
-        margin: 5px;
-        padding-right: 70px;
+        padding: 0 30px 0 2px;
     }
     .last-section-info-again p{
         font-size: 18px;
